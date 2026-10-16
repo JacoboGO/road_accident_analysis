@@ -1,0 +1,33 @@
+# ==========================================
+# Data Analytics Project (SQL / Excel / Power BI / Tableau)
+# ==========================================
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+
+# Archivos temporales de Office (bloqueo y autoguardado)
+~$*
+*.tmp
+*.bak
+
+# Power BI: caché local y respaldos de autorecuperación
+.pbi/
+*.pbi.bak
+
+# Logs
+*.log
+
+# Datos crudos duplicados (idénticos a data/processed/road_accident_clean_excel.xlsx)
+data/raw/road_accident_raw_excel.xlsx
+data/raw/road_accident_raw_power_bi.csv
+
+# NOTA: no se ignoran *.csv, *.xlsx ni *.pbix: son evidencia del trabajo.
+# Si algún archivo supera 100 MB, GitHub bloquea el push (aviso desde 50 MB).
+# Opción de respaldo (descomentar solo si es necesario):
+# data/raw/road_accident_raw_tableau.csv
